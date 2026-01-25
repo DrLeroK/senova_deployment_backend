@@ -1,0 +1,15 @@
+SECRET_KEY='django-insecure-a2lth-ijcgp0%cdc7(h8-fsli&i%w3a!m6fc6*(m21e0lx4kt$'
+
+
+# DJANGO_ENV=prod
+DJANGO_ENV=dev
+EMAIL_HOST_PASSWORD='fgtvxkseadeowjwm'
+EMAIL_HOST_USER='senovaessentials@gmail.com'
+# fgtv xkse adeo wjwm
+
+BASE_URL=https://www.senovastore.com
+# BASE_URL=http://localhost:8000
+
+# chapa secret key
+CHAPA_SECRET_KEY=CHASECK_TEST-mCSWDjuMYU9TbyA6UKO4bcCy4PQ4jQfj
+CHAPA_PUBLIC_KEY=CHAPUBK_TEST-c445zgnkLQinZ2ZvF3qMQTLmQKbbYMGp

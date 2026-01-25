@@ -13,7 +13,8 @@ load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-BASE_URL = config('BASE_URL', default='http://localhost:8000')
+# BASE_URL = config('BASE_URL', default='http://localhost:8000')
+BASE_URL = config('BASE_URL', default='https://www.back2.senovastore.com')
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
@@ -185,9 +186,15 @@ CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
 
 # Frontend
-FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5173')
-DOMAIN = os.getenv('DOMAIN', 'localhost:5173')
+FRONTEND_URL = os.getenv('FRONTEND_URL', 'https://www.senovastore.com')
+DOMAIN = os.getenv('DOMAIN', 'senovastore.com')
 SITE_NAME = 'Senova Store'
+
+
+
+# FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5173')
+# DOMAIN = os.getenv('DOMAIN', 'localhost:5173')
+# SITE_NAME = 'Senova Store'
 
 
 
@@ -197,7 +204,11 @@ SITE_NAME = 'Senova Store'
 CHAPA_SECRET_KEY = os.getenv('CHAPA_SECRET_KEY')
 CHAPA_API_URL = "https://api.chapa.co/v1/transaction/initialize"
 CHAPA_VERIFY_URL = "https://api.chapa.co/v1/transaction/verify/"
-CHAPA_WEBHOOK_URL = "http://127.0.0.1:8000/payments/webhook/"
-CHAPA_RETURN_URL = "http://localhost:8000/payments/webhook/"  # Point to your webhook
+
+CHAPA_WEBHOOK_URL = "https://back2.senovastore.com/payments/webhook/"
+# CHAPA_WEBHOOK_URL = "https://127.0.0.1:8000/payments/webhook/"
+
+CHAPA_RETURN_URL = "https://www.senovastore.com/payments/webhook/"
+# CHAPA_RETURN_URL = "http://localhost:8000/payments/webhook/"  # Point to your webhook
 
 # CHAPA_RETURN_URL = "http://localhost:5173/menu/items"

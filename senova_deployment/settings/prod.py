@@ -31,20 +31,21 @@ DATABASES = {
 
 # Correct Static Files Configuration
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/pldassociationor/public_html/static_2'  # Changed to public_html
+STATIC_ROOT = '/home/senovakq/public_html/static'  # Changed to public_html
 STATICFILES_DIRS = []
 
 # Media Files
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/pldassociationor/pld_backend_2/media'
+MEDIA_ROOT = '/home/senovakq/senova_deployment_backend/media'
 # MEDIA_ROOT = '/home/pldassociationor/public_html/media'
 
 # STATIC_ROOT = '/home/pldassociationor/pld_backend/staticfiles/'
 # MEDIA_ROOT = '/home/pldassociationor/pld_backend/mediafiles/'
 
 # For production
-FRONTEND_URL = 'https://www.pldassociation.org'
-DOMAIN = 'pldassociation.org'  # or 'www.pldassociation.org'
+FRONTEND_URL = 'https://www.senovastore.com'
+DOMAIN = 'senovastore.com'
+
 SITE_NAME = 'Senova Store'
 
 

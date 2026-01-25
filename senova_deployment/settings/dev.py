@@ -4,6 +4,12 @@ from .base import *
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
+
+# FRONTEND_URL = os.getenv('FRONTEND_URL', 'http://localhost:5173')
+# DOMAIN = os.getenv('DOMAIN', 'localhost:5173')
+# SITE_NAME = 'Senova Store'
+
+
 # Database
 DATABASES = {
     'default': {
