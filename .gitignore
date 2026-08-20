@@ -1,40 +1,71 @@
-# Django
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Django runtime files
 *.log
 *.pot
-*.pyc
-__pycache__/
+local_settings.py
 db.sqlite3
+db.sqlite3-journal
 media/
 staticfiles/
 
-# Environment files
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and Sensitive Credentials
 .env
-.env.prod
-.env.local
+.env.*
+envt.txt
+*.env
 /secrets/
 
-# IDE
+# IDE & Text Editors
 .idea/
 .vscode/
 *.swp
 *.swo
+*~
+.project
+.pydevproject
 
-# Virtual environment
-venv/
-env/
-ENV/
-
-# Node/npm (if you have frontend in same repo)
-node_modules/
-npm-debug.log*
-
-# macOS
+# Operating System
 .DS_Store
+Thumbs.db
 
-# Backup files
-*.bak
-*.backup
-
-# Database
+# Database / Backup dumps
 *.db
 *.sqlite
+*.sqlite3
+*.bak
+*.backup
